@@ -55,12 +55,12 @@ double limfib()
         r=rk;
     }
 }
-
+// returns square root of x
 double sqr( double x )
 {
     return x*x;
 }
-
+//find roots ax^2+bx+c=0
 bool realRoots(int a, int b, int c, double& x1, double& x2)
 {
     double D2 = sqr(b)/(4.*sqr(a)) -c/a;
